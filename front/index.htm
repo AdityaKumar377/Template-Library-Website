@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMPLATE LIBRARY WEBSITE</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon"> 
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" alt="logo" class="site-logo">
+                <h1>TEMPLATE LIBRARY</h1>
+                <ul>
+                    <li><a href="index.htm">Home</a></li>
+                    <li><a href="upload.htm">Upload</a></li>
+                    <li><a href="login.htm">Login</a></li>
+                    <li><a href="register.htm">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+
+        <section id="search">
+            <input type="text" id="search-bar" placeholder="Search templates">
+            <select id="category-filter">
+                <option value="all">All Categories of Documents</option>
+                <option value="business">Business</option>
+                <option value="marketing">Marketing</option>
+                <option value="education">Education</option>
+            </select>
+            <select id="format-filter">
+                <option value="all">All Formats of Documents</option>
+                <option value="ppt">PPT</option>
+                <option value="docs">Docs</option>
+                <option value="sheets">Sheets</option>
+            </select>
+            <button onclick="searchTemplates()">Search</button>
+        </section>
+        
+        <section id="template-gallery">
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+    
+    <script src="js/scripts.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

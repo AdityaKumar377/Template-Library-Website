@@ -1,0 +1,115 @@
+body {
+    background-image:url('bg.jpeg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+h1{
+    margin: 0;
+    margin-left: 100px;
+    display: inline;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:70px;
+    font-style: italic;
+    text-align: center;
+    text-decoration:underline;
+}
+header {
+    margin-top: 0;
+    
+    align-items: center;
+    color: white;
+    
+}
+
+.site-logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+#search {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#search-bar, #category-filter, #format-filter {
+    padding: 0.5em;
+    margin-right: 10px;
+}
+
+#template-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.template-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+}
+
+
+
+  
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea, form select {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer{
+    color: black;
+    display: flex;
+    justify-content: end;
+}
